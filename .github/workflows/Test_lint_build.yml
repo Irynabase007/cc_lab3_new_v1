@@ -12,4 +12,6 @@ jobs:
           python-version: '3.x'
       - name: Instull Pip
         run: pip install --upgrade pip
+      - name: Install pytest
+        run: pip install pytest
         
