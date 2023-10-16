@@ -17,4 +17,4 @@ jobs:
       - name: Install lint with Ruff
         run: pip install ruff
       - name: Test application
-        run: pytest
+        run: pytest -s CC_calc_lab3V1.py
