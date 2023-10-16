@@ -1,6 +1,6 @@
 name: Deploy my Calc
 on: workflow_dispatch
-job: 
+jobs:
   test:
     runs-on: ubuntu-latest
     steps:
