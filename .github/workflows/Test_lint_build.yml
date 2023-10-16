@@ -19,9 +19,9 @@ jobs:
       - name: Test application
         run: echo "need test app"
           # pytest -s CC_calc_lab3V1.py
-    lint:
-      runs-on: ubuntu-latest
-      steps:
+  lint:
+     runs-on: ubuntu-latest
+     steps:
         - name: Get repository code
           uses: actions/checkout@v3
         - name: For set up Python
