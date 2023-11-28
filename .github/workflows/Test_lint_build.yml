@@ -17,8 +17,8 @@ jobs:
       - name: Install lint with Ruff
         run: pip install ruff
       - name: Test application
-        run: echo "need test app"
-          # pytest -s CC_calc_lab3V1.py
+        run: pytest -s CC_calc_lab3V1.py
+          # echo "need test app"
   lint:
      runs-on: ubuntu-latest
      steps:
